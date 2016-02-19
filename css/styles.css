@@ -62,10 +62,16 @@ nav {
     section:nth-of-type(1){
         height: 100% !important;
     }
+    .connect .title{
+        font-size: 28px !important;
+    }
+    .connect{
+        padding: 0 30px;
+    }
 }
 
 .nx-container{
-    height: 30%;
+    height: 20%;
 }
 .nx-container div img{
     width: 50%;
@@ -91,6 +97,7 @@ nav {
 .connect .title{
     font-family: MuseoSans-300;
     font-size: 36px;
+    line-height: 4vmin;
     color: #292929;
     line-height: 36px;
     text-align: center;
