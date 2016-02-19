@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Nexto</title>
     <meta name="description" content="Nexto">
     <meta name="author" content="PROXIMA">
 
 
     <link rel="stylesheet" href="css/uikit.min.css" />
-    <script  src="js/components/parallax.min.js" /></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
     <script src="https://use.typekit.net/nwy0xim.js"></script>
@@ -33,7 +34,7 @@
 </nav>
 
 <section class="uk-cover-background  uk-position-relative"
-         data-uk-parallax="{y: '-200', opacity: '0'}" id="first-block" style="overflow: hidden;">
+        id="first-block" style="overflow: hidden;">
         <img src="assets/bg.png" width="" alt="">
 
     <div class="first-page-wrapper uk-position-cover uk-flex uk-flex-center uk-flex-middle">
@@ -58,7 +59,7 @@
     </div>
     <div class="second-page-wrapper uk-position-cover uk-flex uk-flex-center uk-flex-middle" style="left:-27%; top: 120%; width: 80%">
         <div class="uk-grid">
-            <div class="uk-width-1-1"><img src="assets/platform.png"></div>
+            <div data-uk-parallax="{x: '100'}" class="uk-width-1-1"><img src="assets/platform.png"></div>
         </div>
     </div>
 </section>
@@ -87,5 +88,6 @@
 </section>
 
 <script src="js/uikit.min.js"></script>
+<script  src="js/components/parallax.min.js" /></script>
 </body>
 </html>
